@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/logounn.png">
+    <meta name="description" content="Universidad del Norte de Nicaragua">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estiloscarreras.css">
+    <link rel="stylesheet" href="css/estiloscontactos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>P&aacute;gina Contacto UNN Sede Estelí</title>
+  </head>
+<body>
+
+<div class="header">
+	<div class="container">
+	    <div class="row">
+	        <div class="col-xs-4 col-sm-12 col-md-12 col-lg-12 mt-3">
+	    		<div class="uni">
+	        		<div id="logo">
+	            		<img src="imagenes/logounn.png" class="image-fluid img-thumbnail" width="90vw">      
+	        		</div>
+	        		<hgroup>
+				        <h1 class="text-end text-capitalize"></h1>
+				        <h2 class="text-end"></h2>
+	        		</hgroup>
+	        	</div>
+	    	</div>
+	  	</div>
+	</div>
+</div>
+
+<div id="menu">
+	<div class="container">
+	  	<nav class="navbar navbar-expand-lg">
+		   	<button class="navbar-toggler mb-1 offset-11" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <i class="bi bi-list"></i>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mx-auto ">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="index.html"> <i class="bi bi-house-door"> INICIO</i></a>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+			            <i class="bi bi-mortarboard">  CARRERAS</i>
+			          </a>
+			          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			            <li><a class="dropdown-item" href="licenciaturas.html"><i class="bi bi-check"> Licenciaturas</i></a></li>
+			          </ul>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false"> 
+			          	<i class="bi bi-cash"> COSTOS </i>
+			          </a>
+			          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			            <li><a class="dropdown-item" href="costosserviciosacademicos.html"><i class="bi bi-check"> Servicios Acad&eacute;micos</i></a></li>
+			          </ul>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false"> 
+			          	<i class="bi bi-person-lines-fill"> CONTACTOS </i>
+			          </a>
+			          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			            <li><a class="dropdown-item" href="contactoesteli.html"><i class="bi bi-check"> Sede - Estel&iacute;</i></a></li>
+			          </ul>
+			        </li>
+			    </ul>
+		    </div>
+	  	</nav>
+	</div>
+</div>
+
+<div class="section-1">
+<div class="container mt-5 bg-light">
+	<div class="row pb-2" >
+	    <div class="col-xs-6 col-sm-12 col-md-12 col-lg-8 ">
+	    	<div class="row row-cols-1 row-cols-md-1 pt-4">
+				<div class="col">
+				  	<article class="carreras ingenieria pb-1">
+						<figure><img src="imagenes/contactos.png"></figure>
+							<h2>CONTACTOS</h2><br>
+							<div>
+								<span><strong>Contactos</strong></span>
+								<p>
+							</p>
+					</article>
+					<div class="col-xs-6 col-sm-12 col-md-8 col-lg-12 mx-auto">
+					 	<h3 class="text-center pb-4">Enviar Consulta </h3>
+						<form method="post" action="contactoesteli.php" class="row g-3">
+						  <div class="col-md-6">
+						    <label for="inputnombre" class="form-label">Nombres:</label>
+						    <input type="text" class="form-control" name="nombre" id="inputnombre" required>
+						  </div>
+						  <div class="col-md-6">
+						    <label for="correo" class="form-label">Correo Electrónico:</label>
+							<input type="email" class="form-control" name="email" id="correo" placeholder="" required>
+						  </div>
+						  <div class="col-12">
+						    <label for="labelmensaje" class="form-label">Escriba el Mensaje:</label>
+							<textarea name="mensaje" class="form-control" id="labelmensaje" rows="4" required></textarea>
+						  </div>
+						  <div class="col-12">
+						    <button type="submit" class="btn btn-success w-100">ENVIAR MENSAJE</button>
+						  </div>
+						</form>
+					</div>
+				</div>	  
+			</div>
+	    </div>
+	    <div class="col-xs-6 col-sm-12 col-md-12 col-lg-4 pt-5 mt-3">
+	    <div class="card bg-light">
+	        <div class="card-body ">
+	        <div class="v-line p-4">
+				<div class="texto">
+	            	<br>
+			        <h3>DIRECCION</h3>
+			    </div>
+				<div class="texto pt-2">
+	            	<br>
+			        <h3>TELEFONO:</h3>
+			        <span class='bi bi-telephone h3 p-2 m-1' style='color: #006400 '></span>
+			    </div>
+			    <div class="texto pt-2">
+	            	<br>
+			        <h3>CORREO ELECTRONICO:</h3>
+						<span class='bi bi-envelope h3 p-2 m-1' style='color: #006400'></span> 
+			    </div>
+			    <div class="texto pt-2">
+	            	<br>
+			        <h3>SIGUENOS EN:</h3>
+				</div>	
+	        </div>
+	        </div>
+	    </div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+	
+	<script src="js/bootstrap.min.js" ></script>
+
+  </body>
+</html>

@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+}
+body{
+	font-family: 'Indie Flower', cursive;
+	font-size: 1em;
+}
+/*HEADER*/
+.header .container{
+	 background:#006400;
+}
+.container .uni{
+	padding: 10px;
+	box-shadow: 0px 0px 10px #FFF8DC;
+}
+.container .uni #logo{
+    margin-top: 1px;
+    height: auto;
+    float: left;
+}
+.container .uni > hgroup{
+    margin-bottom: 0;
+    color: white;
+    font-size: 20vw;
+	text-shadow: -1 px 1px 3px #FFF8DC;
+}
+/*........MENU NAVEGACION......*/
+#menu .container{
+	background:#006400; 
+	border-bottom: 3px solid #5F9EA0;
+	padding-top: 15px;
+}
+.container .navbar {
+	background:#006400 !important;
+	padding: 1px !important;
+}
+.container .navbar a {
+  	position: relative;
+  	display: block;
+ 	padding: 5px;
+    color: WHITE !important;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+.container .dropdown-menu li a{
+	background: transparent !important;
+}
+.container .navbar li a:hover{
+	color: #FAFAD2  !important; 
+}
+.container .navbar li a:hover::before {
+  transform: scaleX(1);
+}
+.navbar li:hover .dropdown-menu {
+	display: block;
+}
+.container .navbar .dropdown-menu{
+	background: #006400 !important;
+	border-radius: 0px;
+	border: transparent;
+	float: left;
+	margin-left: 10px;
+	padding: 0px;
+}
+.container .navbar .navbar-toggler{
+	color: #FFFFFF;
+}
+.container .navbar .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+/*.....SLIDER....*/
+.slider .carousel{
+	border: 5px solid #5F9EA0;
+	border-radius: 5px;
+}
+.slider .container{
+	margin-top: 10px;
+	padding: 1px;
+}
+/*....GAL......*/
+.gallery-index .container{
+	margin-top: 50px;
+}
+.gallery-index .container .card{
+    border-radius: 4px;
+    border-color: #006400;
+    background: #fff;
+    cursor: pointer;
+}
+.gallery-index .container .card:hover{
+     transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+}
+/*......SECTION 1.....*/
+.section-1 .container {
+	margin-top: 50px;
+}
+.section-1 .container .row .col-xs-4 {
+	background:#D5DBDB;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px #868989;
+	height:100%;
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+}
+.section-1 .nav button{
+	background: transparent; 
+	color: green !important;
+	
+}
+.section-1 .container .row .tab-pane{
+	border-radius: 0px 20px 20px 20px;
+	background: #FFFFFF;
+	padding-top: 45px;
+}
+.section-1 .container .texto > h3{
+	padding-top: 5px;
+	font-weight: bold;
+	text-shadow: -1px 1px 3px #006400;
+	font-size: 20px;
+}
+.section-1 .container .dedic {
+	width: 70%;
+	margin-top: 20px;
+	padding: 2px;
+}
+.section-1 .container p.dedic{
+	text-align: center;
+}
+.section-1 .container p.text{
+	text-align: justify;
+}
+.section-1 .imag-bottom{
+	padding: 30px;
+}
+.section-1 .imag-bottom h3{
+	background-color:  #FFF8DC;
+	color: #1A1A1A;
+	font-size: 20px;
+	font-family: var(--Patua);
+	 display: inline-block;	
+}
+.section-1 .imag-bottom img{
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.section-1 .container .imag-bottom:hover{
+     transform: scale(1.05);
+}
+/*ASIDE*/
+.section-1 .container .aside{
+	background:#D5DBDB; 
+	border-radius: 20px; 
+	box-shadow: 0px 0px 10px #868989; 
+	overflow:hidden;
+	padding: 10px;
+	padding-top: 50px;
+}
+.container .aside .tabla{
+	width: 100%;
+}
+.section-1 .container .aside .tabla td {
+  vertical-align:top;
+}
+.container .aside .tabla tr th{
+	background: #FFFFFF;
+	text-align: center;
+}
+.aside .tabla td audio{
+	margin-top: 5px;
+	width: 90%;
+}
+/*....FOOTER....*/
+.footer .container{
+	font-size: 14px;
+	color: #FFFFFF;
+	background: #BDB76B; 
+	box-shadow:0px 0px 10px #FFF8DC; 
+}
+.footer div#scroll{
+	font-size: 1.8em;
+	font-family: var(--Patua);
+}
+.footer .bi {  
+	font-size: 18px;
+	color: #006400;
+	padding: 5px;
+	margin: 5px 2px;
+	border-radius: 50%; 
+}
+footer .bi-facebook:hover,
+footer .bi-whatsapp:hover{
+	background: #D0D5D5 !important;
+}
+.footer .texto > h4{
+	font-size: 18px;
+	margin-bottom: 20px;
+	font-family: var(--Patua);
+}
+.footer .texto > h2{
+	font-family: 'Indie Flower', cursive;
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+}
+.footer .enlaces{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+.footer .texto .enlaces {
+	line-height: 30px;
+}
+.footer .enlaces:hover{
+	color: #D0D5D5;
+}
+
+
+
+
+
+
+/*...MENU PEGAJOSO...*/
+.sticky {
+	background: transparent !important;
+	 transition: all 1.5s ease;
+ 	position: fixed;
+ 	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+.content {
+  padding: 16px;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+@media handheld, only screen and (max-width: 768px) {
+	.slider{
+		display:none;
+	}
+	.estados img{
+		width: 10%;
+	}
+	audio{
+		text-align: center;
+		width: 70%;
+	}
+	.footer iframe{
+		width: 80%;
+	}
+}
+@media handheld, only screen and (max-width: 992px) {
+	audio{
+		text-align: center;
+		width: 90%;
+	}
+	.footer iframe{
+		height: 160px;
+	}
+}
+
+@media screen and (max-width: 768px), (max-width: 992px){
+	body{
+		font-size: 0.7em;
+		font-family: 'Indie Flower', cursive;
+	}
+	.texto > h3{
+		font-size: 0.8em;
+		font-family: 'Indie Flower', cursive;
+	}
+	.navbar .nav-item li > a{
+		font-size: 0.7em;
+	}
+	#scroll{
+		font-size: 18px;
+	}
+	
+}
